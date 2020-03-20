@@ -12,7 +12,7 @@ class SpringJenkinsApplicationTests {
 	public static Logger logger = org.slf4j.LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("test case is excuted");
 		logger.info("seconf test case executed");
 		assertEquals(true, true);
