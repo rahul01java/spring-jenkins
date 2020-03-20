@@ -13,6 +13,7 @@ public class SpringJenkinsApplication {
 
 	public static void main(String[] args) {
 		logger.info("main method called");
+		System.out.println("docekr image also build");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
