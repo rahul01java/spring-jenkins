@@ -14,7 +14,7 @@ class SpringJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case is excuted");
-		logger.info("seconf test case executed");
+		logger.info("docker image ");
 		assertEquals(true, true);
 	}
 
