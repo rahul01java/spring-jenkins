@@ -14,6 +14,7 @@ class SpringJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case is excuted");
+		logger.info("seconf test case executed");
 		assertEquals(true, true);
 	}
 
